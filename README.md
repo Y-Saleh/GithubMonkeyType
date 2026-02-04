@@ -2,6 +2,8 @@
 
 A "MonkeyType" clone for practicing GitHub and Git commands.
 
+Designed to make Git syntax second nature, this tool combines the addictive challenge of MonkeyType with practical command memorization. Improve your typing speed, master complex flags, and streamline your terminal workflow.
+
 ## Features
 
 - **Practice Mode**: Type randomized Git commands to improve speed and muscle memory. Tracks WPM and Accuracy.
