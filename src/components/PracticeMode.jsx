@@ -72,6 +72,15 @@ const PracticeMode = () => {
             return;
         }
 
+        // Prevent premature Enter which causes scrolling desync
+        if (e.key === 'Enter') {
+            const nextChar = targetText[userInput.length];
+            if (nextChar !== '\n') {
+                e.preventDefault();
+                return;
+            }
+        }
+
         // Timer start
         if (!startTime && userInput.length === 0 && e.key.length === 1) {
             setStartTime(Date.now());
